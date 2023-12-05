@@ -1,0 +1,52 @@
+.ItemsPage {
+  background-color: var(--cream);
+}
+
+.ItemsPage .itemsPageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ItemsPage .itemsPageHeader .newItemBtn {
+  border-color: var(--purple);
+  color: var(--purple);
+  font-size: 1.2rem;
+}
+
+.ItemsPage .itemsPageHeader .newItemBtn:hover {
+  background-color: var(--purple);
+  color: var(--cream);
+}
+
+.itemName {
+  flex: 2;
+  font-weight: bold;
+}
+
+.itemPrice {
+  flex: 2;
+  font-weight: bold;
+}
+
+.itemType {
+  flex: 3;
+  color: var(--cream);
+  background-color: var(--black);
+}
+
+.itemEdit {
+  border-color: var(--blue);
+  color: var(--blue);
+  font-size: 0.8rem;
+}
+
+.itemDelete {
+  font-size: 0.8rem;
+}
+
+.itemEdit:hover {
+  background-color: var(--blue);
+  color: var(--cream);
+}
+

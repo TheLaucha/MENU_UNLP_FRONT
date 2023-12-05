@@ -1,0 +1,42 @@
+.Filter {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.Filter .filterItem {
+  font-family: "Sawarabi Mincho", serif;
+  flex: 1;
+  background-color: var(--cream);
+  border: 2px solid var(--black);
+  font-size: 1rem;
+}
+
+.Filter .filterBtn {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.Filter .filterBtn:hover {
+  background-color: var(--blue);
+  color: var(--cream);
+}
+
+@media all and (max-width: 1280px) {
+}
+
+@media all and (max-width: 1024px) {
+  .Filter {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .Filter {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 480px) {
+}
