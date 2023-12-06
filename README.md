@@ -30,7 +30,7 @@ npm start
 
 1. Clona el siguiente repositorio que pertene al back-end: `git clone https://github.com/TheLaucha/MENU_UNLP_BACK.git`
 2. Accede al directorio del proyecto: `cd MENU_UNLP_BACK`
-3. Instala las dependencias: `npm install`
+3. Instala las dependencias: `composer install`
 4. Inicia el servidor del backend: `php -S localhost:8080`
 
 ## Configuracion de la base de datos
